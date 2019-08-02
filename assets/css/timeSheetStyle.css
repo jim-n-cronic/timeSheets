@@ -1,0 +1,9 @@
+.jumbotron {
+    text-align: center;
+}
+
+#submitForm {
+    border-radius: 8px;
+    background-color: purple;
+    color: white;
+}

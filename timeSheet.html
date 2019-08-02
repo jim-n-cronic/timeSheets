@@ -2,6 +2,56 @@
 <html lang="en-us">
 <head>
     <meta charst="UTF-8">
+    <title>Time Sheet</title>
     
-</head>    
+    <!--bootStrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--styleSheet-->
+    <link rel="stylesheet" href="assets/css/timeSheetStyle.css">
+    <!--jQuery CDN-->
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+ 
+
+</head>   
+<body>
+    <div class="jumbotron">
+        <h1>Time Sheets!!!</h1>
+    </div>
+    
+    <!--table is gunna go HERE!-->
+    <div class="container">
+        
+    </div>
+    
+    <!---->
+
+
+    <form id="entryArea">
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <br>
+        <label for="role">Role</label>
+        <input type="text" id="role">
+        <br>
+        <label for="startDate">Start Date</label>
+        <input type="text" id="startDate">
+        <br>
+        <label for="monthsWorked">Months Worked</label>
+        <input type="text" id="monthsWorked">
+        <br>
+        <label for="monthlyRate">Monthly Rate</label>
+        <input type="text" id="monthlyRate">
+        <br>
+        <label for="totBilled">Total Billed</label>
+        <input type="text" id="totBilled">
+        <button type="button" id="submitForm">Submit!</button>
+    </form>
+
+
+
+    <script src="assets/javascript/timeSheets.js"></script>
+</body> 
 </html>
